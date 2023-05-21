@@ -1,0 +1,74 @@
+1. How and when to use the AutoSum command in excel?
+
+Certainly! Here's a simpler explanation:
+
+The AutoSum command in Excel helps you quickly calculate the sum of a range of numbers. You can use it by clicking on the AutoSum button or using the shortcut (Alt + =). It automatically selects the nearby cells and shows the sum in the selected cell. You can adjust the selection if needed by dragging or manually selecting cells. It's handy for adding column or row totals, calculating multiple totals at once, and even performing other basic calculations like average or count. It saves time and makes working with numbers in Excel easier.
+
+--------------------------------
+
+2. What is the shortcut key to perform AutoSum?
+
+The shortcut key to perform AutoSum in Excel is "Alt + =". 
+
+Here's a simple explanation:
+
+To use AutoSum quickly, select the cell where you want the sum to appear. Then, press and hold the "Alt" key on your keyboard and simultaneously press the "=" (equal sign) key. Excel will automatically select the range of cells above (for column total) or to the left (for row total) of the active cell and display the sum in the selected cell.
+
+Using the "Alt + =" shortcut saves you time by instantly applying the AutoSum function and automatically selecting the appropriate range for calculation. It's a convenient way to calculate totals without the need to manually enter formulas or use the toolbar buttons.
+
+------------------------------------
+
+3. How do you get rid of Formula that omits adjacent cells?
+
+1. Select the cell or range containing the formula that omits adjacent cells.
+2. Copy the selected cell(s) by pressing "Ctrl + C" on your keyboard or using the right-click menu and selecting "Copy."
+3. Right-click on the same cell(s) or a different destination cell where you want to replace the formula.
+4. Choose "Paste Values" from the right-click menu or use the "Ctrl + Alt + V" keyboard shortcut.
+5. In the Paste Special dialog box that appears, select "Values" and click "OK."
+
+By pasting the values, you replace the formula with the actual calculated values, removing any references to adjacent cells. The newly pasted values will no longer change or update when the adjacent cells change.
+
+-----------------------------------
+
+4. How do you select non-adjacent cells in Excel 2016?
+
+To select non-adjacent cells in Excel 2016, use the Ctrl key on your keyboard. Here's is  explanation:
+
+1. Click on the first cell or range of cells that you want to select.
+2. Hold down the Ctrl key on your keyboard.
+3. While still holding Ctrl, click on additional cells or ranges that you want to select. You can click on cells that are not adjacent to each other.
+4. Release the Ctrl key once you have selected all the desired non-adjacent cells.
+
+By holding down the Ctrl key and clicking on different cells or ranges, you can build a non-adjacent selection. This allows you to perform various actions on multiple non-contiguous cells, such as formatting, copying, deleting, or applying functions.
+
+-----------------------------------
+
+5. What happens if you choose a column, hold down the Alt key and press the letters
+ocw in quick succession?
+
+
+If we choose a column in Excel, hold down the Alt key, and press the letters "ocw" in quick succession, the following actions will occur:
+
+1. "o" key: Excel will apply the "AutoFit Column Width" feature to the selected column. This will automatically adjust the column width to fit the contents of the cells within the column.
+
+2. "c" key: Excel will clear the contents of the selected column, removing any data or formulas that were previously entered.
+
+3. "w" key: Excel will apply the "Wrap Text" formatting to the cells in the selected column. This will wrap the text within the cells, allowing it to fit within the column width and display multiple lines if needed.
+
+By using this keyboard shortcut, we can quickly perform these actions on a selected column without having to navigate through menus or use additional commands. It provides a convenient way to adjust column width, clear column contents, or apply text wrapping to columns in Excel.
+
+----------------------------------------------
+
+6. If you right-click on a row reference number and click on Insert, where will the row
+be added?
+
+If we right-click on a row reference number in Excel, such as "1," "2," or "3," and click on "Insert," the row will be added above the selected row. 
+
+Here's a  explanation:
+
+1. Right-click on the row reference number where you want to insert a new row.
+2. From the right-click menu, select "Insert."
+
+After selecting "Insert," Excel will add a new row above the row you right-clicked on. The existing rows below will be shifted down, creating space for the newly inserted row.
+
+This is a quick way to insert a row above the selected row without manually shifting or moving the existing rows. It allows we to easily expand and reorganize our worksheet by adding new rows at specific locations.
