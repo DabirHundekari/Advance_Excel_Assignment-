@@ -1,0 +1,108 @@
+1. What does the dollar($) sign do?
+
+In Excel, the dollar sign ($) is used to create an absolute cell reference. It is a symbol that can be applied to the column letter or row number in a cell reference to prevent it from changing when the formula or function is copied or filled to other cells.
+
+1. $A$1: When both the column letter and row number have a dollar sign, such as "$A$1", it creates an absolute cell reference. If you copy or fill a formula containing "$A$1" to other cells, the reference to cell A1 will remain unchanged.
+
+2. $A1: When only the column letter has a dollar sign, such as "$A1", it creates a mixed cell reference. If you copy or fill the formula containing "$A1" to other cells horizontally, the column reference (A) will remain unchanged, but the row reference (1) will adjust based on the relative position of the new cell.
+
+3. A$1: When only the row number has a dollar sign, such as "A$1", it also creates a mixed cell reference. If you copy or fill the formula containing "A$1" to other cells vertically, the row reference (1) will remain unchanged, but the column reference (A) will adjust based on the relative position of the new cell.
+
+-------------------------------------
+
+2. How to Change the Reference from Relative to Absolute (or Mixed)?
+
+To change a cell reference from relative to absolute (or mixed) in Excel, you can use the dollar sign ($) symbol. 
+
+1. Relative to Absolute (or Fully Absolute):
+   - Select the cell reference you want to make absolute. This can be the column letter, row number, or both.
+   - Press the F4 key on your keyboard. Each time you press F4, it will toggle through different variations of absolute references.
+   - Alternatively, you can manually insert the dollar sign ($) in front of the column letter and/or row number to make them absolute. For example, changing "A1" to "$A$1" will make both the column and row absolute.
+
+2. Relative to Mixed (Absolute Column or Row):
+   - Select the cell reference you want to make mixed (having an absolute column or row).
+   - Press the F4 key on your keyboard. It will cycle through different variations of the reference, changing between relative and absolute for the column letter or row number.
+   - Alternatively, you can manually insert the dollar sign ($) in front of either the column letter or row number to make it absolute. For example, changing "A1" to "$A1" will make the column absolute but keep the row relative, while changing "A1" to "A$1" will make the row absolute but keep the column relative.
+
+-------------------------------------
+
+3. Explain the order of operations in excel?
+
+The order of operations in Excel refers to the sequence in which mathematical calculations are performed within a formula.
+
+1. Parentheses: Excel evaluates expressions within parentheses first. If a formula contains nested parentheses, the innermost parentheses are evaluated first.
+
+2. Exponents: Excel calculates any exponentiation (raising a number to a power) next. For example, if a formula includes 2^3, Excel will perform the exponentiation before other operations.
+
+3. Multiplication and Division: Excel performs multiplication (*) and division (/) operations from left to right. If a formula has multiple multiplication or division operations, they are evaluated in the order they appear.
+
+4. Addition and Subtraction: Excel carries out addition (+) and subtraction (-) operations from left to right. Similar to multiplication and division, if there are multiple addition or subtraction operations, they are evaluated in the order they appear.
+
+By following this order of operations, Excel ensures that formulas are evaluated correctly and consistently. However, you can use parentheses to modify the order of operations and prioritize specific calculations within a formula.
+
+---------------------------------------
+
+4. What, according to you, are the top 5 functions in excel and write a basic syntax
+for any of two?
+
+1. SUM function:
+   - Syntax: =SUM(number1, [number2], ...)
+   - Description: Adds up a range of numbers or cells.
+   - Example: =SUM(A1:A10) adds the values in cells A1 to A10.
+
+2. AVERAGE function:
+   - Syntax: =AVERAGE(number1, [number2], ...)
+   - Description: Calculates the average of a range of numbers or cells.
+   - Example: =AVERAGE(B1:B5) calculates the average of the values in cells B1 to B5.
+
+3. IF function:
+   - Syntax: =IF(logical_test, value_if_true, value_if_false)
+   - Description: Performs a conditional check and returns different values based on the result.
+   - Example: =IF(C1>10, "Yes", "No") checks if the value in cell C1 is greater than 10 and returns "Yes" if true and "No" if false.
+
+4. VLOOKUP function:
+   - Syntax: =VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])
+   - Description: Searches for a value in the leftmost column of a table and returns a corresponding value from a specified column.
+   - Example: =VLOOKUP(D1, A1:B10, 2, FALSE) searches for the value in cell D1 in column A of the range A1:B10 and returns the corresponding value from column B.
+
+5. COUNT function:
+   - Syntax: =COUNT(value1, [value2], ...)
+   - Description: Counts the number of cells in a range that contain numbers.
+   - Example: =COUNT(C1:C10) counts the number of cells in the range C1 to C10 that contain numbers.
+
+-------------------------------------
+
+
+5. When would you use the subtotal function?
+
+
+The SUBTOTAL function in Excel is used when you want to perform calculations on a filtered range of data. It is particularly useful when you have a large dataset and you want to calculate totals, averages, counts, etc., only for the visible (filtered) data.
+
+1. Filtered Data: When you have a dataset in Excel and you apply filters to show specific subsets of data based on certain criteria, the SUBTOTAL function allows you to perform calculations on only the visible (filtered) data.
+
+2. Avoid Double Counting: The SUBTOTAL function automatically excludes any hidden rows that are filtered out, preventing double counting of values. It considers only the visible cells in the calculation, which can provide more accurate results for filtered data.
+
+3. Aggregated Calculations: You can use the SUBTOTAL function to calculate various summary statistics, such as sum, average, count, minimum, maximum, etc., for the filtered range. It provides flexibility in performing different calculations on the visible data without affecting the hidden data.
+
+4. Dynamic Results: The SUBTOTAL function updates automatically when you change the filter settings or add/remove data. This ensures that the calculated results reflect the current state of the filtered data.
+
+To use the SUBTOTAL function, you specify a function number (ranging from 1 to 11) that corresponds to a specific calculation you want to perform. For example, using SUBTOTAL with function number 9 calculates the sum of the visible cells.
+
+-------------------------------------
+
+6. What is the syntax of the vlookup function? Explain the terms in it?
+
+
+The syntax of the VLOOKUP function in Excel is as follows:
+
+=VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])
+
+explain the terms used in the syntax:
+
+1. lookup_value: This is the value you want to look up or search for in the leftmost column of the table.
+
+2. table_array: This refers to the range of cells that contains the data you want to search in. The leftmost column of the range should contain the lookup values, and the corresponding columns can contain the data you want to retrieve.
+
+3. col_index_num: This is the column number (relative to the table_array) from which you want to retrieve the result. For example, if you want to retrieve data from the third column of the table_array, you would enter 3 as the col_index_num.
+
+4. [range_lookup]: This is an optional parameter that determines whether an exact or approximate match is required. If you want an exact match, enter FALSE or 0. If you want an approximate match (for sorted data), enter TRUE or 1. If this parameter is omitted, Excel assumes an approximate match by default.
