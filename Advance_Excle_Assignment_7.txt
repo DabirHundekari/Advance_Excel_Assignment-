@@ -1,0 +1,195 @@
+1. Using Insert Function, give examples of any function available in the
+different dropdowns present in the function library. For example
+AutoSum, Recently Used, Text, Date & Time, etc.
+
+1. AutoSum (Recently Used):
+   - SUM: Calculates the sum of a range of cells.
+   - AVERAGE: Calculates the average of a range of cells.
+   - COUNT: Counts the number of cells that contain numbers in a range.
+   - MAX: Returns the largest value in a range.
+   - MIN: Returns the smallest value in a range.
+
+2. Recently Used:
+   - IF: Performs a logical test and returns different values based on the result.
+   - VLOOKUP: Searches for a value in the first column of a table and returns a corresponding value in a specified column.
+   - CONCATENATE: Joins multiple text strings into one text string.
+   - SUMIFS: Calculates the sum of a range based on multiple criteria.
+   - COUNTIFS: Counts the number of cells based on multiple criteria.
+
+3. Text:
+   - LEFT: Returns the leftmost characters from a text string.
+   - RIGHT: Returns the rightmost characters from a text string.
+   - LEN: Returns the length of a text string.
+   - CONCAT: Combines multiple text strings into one text string.
+   - UPPER: Converts text to uppercase.
+
+4. Date & Time:
+   - TODAY: Returns the current date.
+   - NOW: Returns the current date and time.
+   - DATE: Creates a date based on the year, month, and day values provided.
+   - TIME: Creates a time based on the hour, minute, and second values provided.
+   - EDATE: Returns a date that is a specified number of months before or after a given date.
+
+
+------------------------------------------------
+
+
+2. What are the different ways we can select columns and rows?
+
+
+In Excel, there are multiple ways to select columns and rows.
+
+1. Selecting a Column:
+   - Click on the column letter header at the top of the column.
+   - Position the cursor anywhere within the column and press Ctrl + Spacebar.
+   - Click and drag across multiple column headers to select multiple columns.
+   - Press Ctrl + Shift + Right Arrow to select from the current column to the last used column on the right.
+
+2. Selecting a Row:
+   - Click on the row number header on the left side of the row.
+   - Position the cursor anywhere within the row and press Shift + Spacebar.
+   - Click and drag across multiple row numbers to select multiple rows.
+   - Press Ctrl + Shift + Down Arrow to select from the current row to the last used row below.
+
+3. Selecting Multiple Columns or Rows:
+   - Click on the first column or row, hold down the Shift key, and click on the last column or row to select a range of columns or rows.
+   - Click and drag across column headers or row numbers to select multiple adjacent columns or rows.
+   - Press Ctrl key while clicking on individual column headers or row numbers to select non-adjacent columns or rows.
+
+4. Selecting Entire Columns or Rows:
+   - To select the entire column, click on the column letter header, such as "A" or "B".
+   - To select the entire row, click on the row number header, such as "1" or "2".
+   - To select all columns or rows in the worksheet, click the triangle icon located between the column letter headers and row number headers.
+
+
+--------------------------------------------------------
+
+3. What is AutoFit and why do we use it?
+
+
+AutoFit is a feature in Microsoft Excel that automatically adjusts the width of a column or the height of a row to fit the contents within it. It allows we to optimize the column or row width/height so that the data is displayed fully without being cut off or truncated.
+
+The main purpose of using AutoFit is to ensure that the content in a cell or a range of cells is visible and easily readable without having to manually adjust the column width or row height. Here are the key reasons why AutoFit is used:
+
+1. Fit Data to Cell Size: AutoFit helps in displaying the complete contents of a cell without any truncation. When a column or row is too narrow or short to display the full content of a cell, using AutoFit expands the column width or row height to accommodate the data within it.
+
+2. Improve Readability: By using AutoFit, we can ensure that the text or numeric data in a column is visible and readable, especially if the content is wider than the default column width. It helps in avoiding unnecessary line breaks or hiding important information.
+
+3. Enhance Presentation and Printing: AutoFit is particularly useful when we want to present or print wer Excel worksheet. It helps in adjusting the column widths and row heights so that the data is well-presented and fits neatly within the printable area.
+
+4. Efficient Data Analysis: When working with large datasets, AutoFit enables we to view more data within the available screen space. By automatically adjusting the column widths, we can fit more columns on the screen, making it easier to analyze and compare data.
+
+5. Save Time and Effort: Instead of manually resizing each column or row to fit the content, AutoFit allows we to quickly adjust the width or height with just a few clicks. It saves time and effort, especially when working with multiple columns or rows.
+
+To use AutoFit in Excel, we can simply double-click the right edge of a column header to auto-adjust the column width or double-click the bottom edge of a row header to auto-adjust the row height. Alternatively, we can use the AutoFit options in the "Home" tab of the Ribbon to apply AutoFit to selected columns or rows.
+
+
+------------------------------------------------------
+
+
+4. How can we insert new rows and columns into the existing table?
+
+To insert new rows and columns into an existing table in Excel,
+
+Inserting Rows:
+1. Select the row below which we want to insert new rows. The selected row will serve as the reference point for the insertion.
+2. Right-click on the selected row and choose "Insert" from the context menu. Alternatively, we can use the shortcut method by right-clicking and selecting "Insert" or pressing Ctrl + "+" (plus key) on the keyboard.
+3. Excel will insert a new row above the selected row, shifting the existing rows downwards. we can repeat this process to insert multiple rows at once.
+
+Inserting Columns:
+1. Select the column to the right of which we want to insert new columns. The selected column will act as the reference point for the insertion.
+2. Right-click on the selected column and choose "Insert" from the context menu. Alternatively, we can use the shortcut method by right-clicking and selecting "Insert" or pressing Ctrl + Shift + "+" (plus key) on the keyboard.
+3. Excel will insert a new column to the left of the selected column, shifting the existing columns to the right. we can repeat this process to insert multiple columns at once.
+
+Note: When inserting rows or columns within a table, Excel automatically adjusts the table range and updates the table structure to include the newly inserted rows or columns.
+
+Another method to insert rows and columns in a table is by using the options available in the Ribbon:
+
+Inserting Rows:
+1. Select the row below which we want to insert new rows.
+2. Go to the "Home" tab in the Ribbon.
+3. In the "Cells" group, click on the "Insert" button and select "Insert Sheet Rows" from the dropdown menu.
+4. Excel will insert new rows above the selected row, pushing the existing rows downwards.
+
+Inserting Columns:
+1. Select the column to the right of which we want to insert new columns.
+2. Go to the "Home" tab in the Ribbon.
+3. In the "Cells" group, click on the "Insert" button and select "Insert Sheet Columns" from the dropdown menu.
+4. Excel will insert new columns to the left of the selected column, shifting the existing columns to the right.
+
+
+-----------------------------------------------
+
+
+5. How do we hide and unhide columns in excel?
+
+To hide and unhide columns in Excel, we can follow these steps:
+
+Hiding Columns:
+1. Select the column(s) that we want to hide. To select multiple adjacent columns, click and drag across the column headers. To select non-adjacent columns, hold down the Ctrl key while selecting the column headers.
+2. Right-click on the selected column(s) and choose "Hide" from the context menu. Alternatively, we can use the shortcut method by right-clicking and selecting "Hide" or pressing Ctrl + 0 (zero) on the keyboard.
+3. Excel will hide the selected column(s), and they will no longer be visible in the worksheet. The adjacent columns will adjust to fill the gap.
+
+Unhiding Columns:
+1. Select the columns on either side of the hidden columns. Make sure to include the hidden columns' adjacent visible columns in the selection.
+2. Right-click on the selected columns and choose "Unhide" from the context menu. Alternatively, we can use the shortcut method by right-clicking and selecting "Unhide" or pressing Ctrl + Shift + 0 (zero) on the keyboard.
+3. Excel will unhide the previously hidden columns, making them visible again in the worksheet. The columns will reappear in their original positions.
+
+Note: If we want to unhide a specific column whose adjacent columns are not hidden, follow these steps:
+1. Select the entire worksheet by clicking the triangle icon located between the column letter headers and row number headers.
+2. Right-click on any visible column header and choose "Unhide" from the context menu.
+3. Excel will unhide any hidden columns in the worksheet.
+
+
+------------------------------------------------
+
+
+6. Create an appropriate table within the worksheet and use different
+functions available in the AutoSum command.
+
+Certainly! Let's create a sample table within the worksheet and use different functions available in the AutoSum command. 
+
+Here's an example table representing sales data:
+
+| Product     | Quantity Sold | Price per Unit |
+|-------------|---------------|----------------|
+| Product A   | 10            | $5.00          |
+| Product B   | 15            | $8.50          |
+| Product C   | 20            | $12.00         |
+
+To use different functions available in the AutoSum command, follow these steps:
+
+1. Enter the table data into the cells in the worksheet, starting from cell A1.
+2. Position the cursor in the cell below the column of numbers we want to calculate or in the cell to the right of the row of numbers we want to calculate.
+
+To use the AutoSum command:
+
+1. Select the cell where we want the result to appear.
+2. In the "Home" tab of the Ribbon, go to the "Editing" group.
+3. Click on the AutoSum button (Σ) in the Ribbon. The AutoSum drop-down menu will appear with different function options.
+
+Now, let's use different functions available in the AutoSum command for our sample table:
+
+1. Sum:
+   - Click on the cell below the "Quantity Sold" column to calculate the total quantity sold.
+   - Click on the AutoSum button (Σ) in the Ribbon.
+   - The AutoSum drop-down menu will show the "Sum" function selected by default.
+   - Press Enter, and Excel will calculate the sum of the selected range.
+
+2. Average:
+   - Click on the cell below the "Price per Unit" column to calculate the average price per unit.
+   - Click on the AutoSum button (Σ) in the Ribbon.
+   - In the AutoSum drop-down menu, select "Average" from the list of functions.
+   - Press Enter, and Excel will calculate the average of the selected range.
+
+3. Count:
+   - Click on an empty cell below the "Product" column to count the number of products.
+   - Click on the AutoSum button (Σ) in the Ribbon.
+   - In the AutoSum drop-down menu, select "Count" from the list of functions.
+   - Press Enter, and Excel will count the number of cells with data in the selected range.
+
+These are just a few examples of functions available in the AutoSum command. we can explore the other functions in the drop-down menu, such as Minimum, Maximum, and more, to perform different calculations on wer data.
+
+By using the AutoSum command with different functions, we can quickly and easily calculate various values within wer table, saving time and ensuring accuracy in wer calculations.
+
+
